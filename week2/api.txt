@@ -1,0 +1,29 @@
+**APIs**
+
+* have a rate limit
+
+**facebook => graph API
+
+** 40k feet view of the methodology used to analyse data from OSM
+(refer pic)
+
+
+** features , classification in twitter
+
+*user features, tweet features are used
+* 5 fold cross validation is used
+*naive bayes, decision tree can also be used to ensure classification(info or misinfo) is correct
+
+*twitter classification architecture
+(refer pic)
+
+*if cronbach alpha value >= 0.75 then the info is true
+
+** Normalized Discounted Cumulative Gain (NDCG)
+* it is a standard metric used to study efficiency of search engines
+* We use it to study the quality of our classification
+
+** who posts , topic they post on are also good features to predict if post is credible
+
+** TweetCred - chrome extension to predict the credibility of tweets
+(refer pic)
